@@ -5,9 +5,31 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48486DFB-00D7-4A1B-92F3-66A82829C8D4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TitanicModel", "src\TitanicModel\TitanicModel.csproj", "{C47F33DE-9E91-4E02-9216-F306B810794D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicExecutable", "src\TitanicExecutable\TitanicExecutable.csproj", "{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C47F33DE-9E91-4E02-9216-F306B810794D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47F33DE-9E91-4E02-9216-F306B810794D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47F33DE-9E91-4E02-9216-F306B810794D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47F33DE-9E91-4E02-9216-F306B810794D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C47F33DE-9E91-4E02-9216-F306B810794D} = {48486DFB-00D7-4A1B-92F3-66A82829C8D4}
+		{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5} = {48486DFB-00D7-4A1B-92F3-66A82829C8D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F773538-58C8-4EF5-8578-5A7E6045AC58}
