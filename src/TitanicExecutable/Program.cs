@@ -85,7 +85,7 @@ namespace Kritikos.TitanicExecutable
 					Embarked = row.Values[11].Value.ToString(),
 					PassengerClass = (float)row.Values[2].Value,
 					Gender = row.Values[4].Value.ToString(),
-					Age = (float)(row.Values[5].Value ?? 0),
+					Age = (float)row.Values[5].Value,
 					ParentsOrChildren = (float)row.Values[7].Value,
 					SiblingsOrSpouses = (float)row.Values[6].Value,
 					Cabin = row.Values[10].Value.ToString(),
