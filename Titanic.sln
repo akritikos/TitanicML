@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48486DFB-00D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TitanicModel", "src\TitanicModel\TitanicModel.csproj", "{C47F33DE-9E91-4E02-9216-F306B810794D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicExecutable", "src\TitanicExecutable\TitanicExecutable.csproj", "{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TitanicExecutable", "src\TitanicExecutable\TitanicExecutable.csproj", "{FB8C7B3B-899C-47C5-B17E-C68DA9EC27A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
